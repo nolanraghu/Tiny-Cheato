@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FA5619E24E4791B00496C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5619D24E4791B00496C27 /* AppDelegate.swift */; };
+		6FA561A024E4791B00496C27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5619F24E4791B00496C27 /* SceneDelegate.swift */; };
+		6FA561A224E4791C00496C27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA561A124E4791B00496C27 /* ViewController.swift */; };
+		6FA561A524E4791C00496C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA561A324E4791C00496C27 /* Main.storyboard */; };
+		6FA561A724E4791C00496C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA561A624E4791C00496C27 /* Assets.xcassets */; };
+		6FA561AA24E4791C00496C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA561A824E4791C00496C27 /* LaunchScreen.storyboard */; };
+		6FA561B524E4791C00496C27 /* Tiny_CheatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA561B424E4791C00496C27 /* Tiny_CheatoTests.swift */; };
+		6FA561C024E4791C00496C27 /* Tiny_CheatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA561BF24E4791C00496C27 /* Tiny_CheatoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FA561B124E4791C00496C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FA5619224E4791B00496C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FA5619924E4791B00496C27;
+			remoteInfo = "Tiny Cheato";
+		};
+		6FA561BC24E4791C00496C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FA5619224E4791B00496C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FA5619924E4791B00496C27;
+			remoteInfo = "Tiny Cheato";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FA5619A24E4791B00496C27 /* Tiny Cheato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiny Cheato.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA5619D24E4791B00496C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FA5619F24E4791B00496C27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6FA561A124E4791B00496C27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6FA561A424E4791C00496C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FA561A624E4791C00496C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FA561A924E4791C00496C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FA561AB24E4791C00496C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA561B024E4791C00496C27 /* Tiny CheatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiny CheatoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA561B424E4791C00496C27 /* Tiny_CheatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiny_CheatoTests.swift; sourceTree = "<group>"; };
+		6FA561B624E4791C00496C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA561BB24E4791C00496C27 /* Tiny CheatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiny CheatoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA561BF24E4791C00496C27 /* Tiny_CheatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiny_CheatoUITests.swift; sourceTree = "<group>"; };
+		6FA561C124E4791C00496C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FA5619724E4791B00496C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA561AD24E4791C00496C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA561B824E4791C00496C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FA5619124E4791B00496C27 = {
+			isa = PBXGroup;
+			children = (
+				6FA5619C24E4791B00496C27 /* Tiny Cheato */,
+				6FA561B324E4791C00496C27 /* Tiny CheatoTests */,
+				6FA561BE24E4791C00496C27 /* Tiny CheatoUITests */,
+				6FA5619B24E4791B00496C27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FA5619B24E4791B00496C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FA5619A24E4791B00496C27 /* Tiny Cheato.app */,
+				6FA561B024E4791C00496C27 /* Tiny CheatoTests.xctest */,
+				6FA561BB24E4791C00496C27 /* Tiny CheatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FA5619C24E4791B00496C27 /* Tiny Cheato */ = {
+			isa = PBXGroup;
+			children = (
+				6FA5619D24E4791B00496C27 /* AppDelegate.swift */,
+				6FA5619F24E4791B00496C27 /* SceneDelegate.swift */,
+				6FA561A124E4791B00496C27 /* ViewController.swift */,
+				6FA561A324E4791C00496C27 /* Main.storyboard */,
+				6FA561A624E4791C00496C27 /* Assets.xcassets */,
+				6FA561A824E4791C00496C27 /* LaunchScreen.storyboard */,
+				6FA561AB24E4791C00496C27 /* Info.plist */,
+			);
+			path = "Tiny Cheato";
+			sourceTree = "<group>";
+		};
+		6FA561B324E4791C00496C27 /* Tiny CheatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FA561B424E4791C00496C27 /* Tiny_CheatoTests.swift */,
+				6FA561B624E4791C00496C27 /* Info.plist */,
+			);
+			path = "Tiny CheatoTests";
+			sourceTree = "<group>";
+		};
+		6FA561BE24E4791C00496C27 /* Tiny CheatoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6FA561BF24E4791C00496C27 /* Tiny_CheatoUITests.swift */,
+				6FA561C124E4791C00496C27 /* Info.plist */,
+			);
+			path = "Tiny CheatoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FA5619924E4791B00496C27 /* Tiny Cheato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA561C424E4791C00496C27 /* Build configuration list for PBXNativeTarget "Tiny Cheato" */;
+			buildPhases = (
+				6FA5619624E4791B00496C27 /* Sources */,
+				6FA5619724E4791B00496C27 /* Frameworks */,
+				6FA5619824E4791B00496C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tiny Cheato";
+			productName = "Tiny Cheato";
+			productReference = 6FA5619A24E4791B00496C27 /* Tiny Cheato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FA561AF24E4791C00496C27 /* Tiny CheatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA561C724E4791C00496C27 /* Build configuration list for PBXNativeTarget "Tiny CheatoTests" */;
+			buildPhases = (
+				6FA561AC24E4791C00496C27 /* Sources */,
+				6FA561AD24E4791C00496C27 /* Frameworks */,
+				6FA561AE24E4791C00496C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FA561B224E4791C00496C27 /* PBXTargetDependency */,
+			);
+			name = "Tiny CheatoTests";
+			productName = "Tiny CheatoTests";
+			productReference = 6FA561B024E4791C00496C27 /* Tiny CheatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FA561BA24E4791C00496C27 /* Tiny CheatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA561CA24E4791C00496C27 /* Build configuration list for PBXNativeTarget "Tiny CheatoUITests" */;
+			buildPhases = (
+				6FA561B724E4791C00496C27 /* Sources */,
+				6FA561B824E4791C00496C27 /* Frameworks */,
+				6FA561B924E4791C00496C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FA561BD24E4791C00496C27 /* PBXTargetDependency */,
+			);
+			name = "Tiny CheatoUITests";
+			productName = "Tiny CheatoUITests";
+			productReference = 6FA561BB24E4791C00496C27 /* Tiny CheatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FA5619224E4791B00496C27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Nolan Raghu";
+				TargetAttributes = {
+					6FA5619924E4791B00496C27 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					6FA561AF24E4791C00496C27 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 6FA5619924E4791B00496C27;
+					};
+					6FA561BA24E4791C00496C27 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 6FA5619924E4791B00496C27;
+					};
+				};
+			};
+			buildConfigurationList = 6FA5619524E4791B00496C27 /* Build configuration list for PBXProject "Tiny Cheato" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FA5619124E4791B00496C27;
+			productRefGroup = 6FA5619B24E4791B00496C27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FA5619924E4791B00496C27 /* Tiny Cheato */,
+				6FA561AF24E4791C00496C27 /* Tiny CheatoTests */,
+				6FA561BA24E4791C00496C27 /* Tiny CheatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FA5619824E4791B00496C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA561AA24E4791C00496C27 /* LaunchScreen.storyboard in Resources */,
+				6FA561A724E4791C00496C27 /* Assets.xcassets in Resources */,
+				6FA561A524E4791C00496C27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA561AE24E4791C00496C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA561B924E4791C00496C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FA5619624E4791B00496C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA561A224E4791C00496C27 /* ViewController.swift in Sources */,
+				6FA5619E24E4791B00496C27 /* AppDelegate.swift in Sources */,
+				6FA561A024E4791B00496C27 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA561AC24E4791C00496C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA561B524E4791C00496C27 /* Tiny_CheatoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA561B724E4791C00496C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA561C024E4791C00496C27 /* Tiny_CheatoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FA561B224E4791C00496C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FA5619924E4791B00496C27 /* Tiny Cheato */;
+			targetProxy = 6FA561B124E4791C00496C27 /* PBXContainerItemProxy */;
+		};
+		6FA561BD24E4791C00496C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FA5619924E4791B00496C27 /* Tiny Cheato */;
+			targetProxy = 6FA561BC24E4791C00496C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FA561A324E4791C00496C27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA561A424E4791C00496C27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FA561A824E4791C00496C27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA561A924E4791C00496C27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FA561C224E4791C00496C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FA561C324E4791C00496C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FA561C524E4791C00496C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tiny Cheato/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kqstudio.Tiny-Cheato";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FA561C624E4791C00496C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tiny Cheato/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kqstudio.Tiny-Cheato";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FA561C824E4791C00496C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tiny CheatoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kqstudio.Tiny-CheatoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiny Cheato.app/Tiny Cheato";
+			};
+			name = Debug;
+		};
+		6FA561C924E4791C00496C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tiny CheatoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kqstudio.Tiny-CheatoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiny Cheato.app/Tiny Cheato";
+			};
+			name = Release;
+		};
+		6FA561CB24E4791C00496C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tiny CheatoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kqstudio.Tiny-CheatoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tiny Cheato";
+			};
+			name = Debug;
+		};
+		6FA561CC24E4791C00496C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tiny CheatoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kqstudio.Tiny-CheatoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tiny Cheato";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FA5619524E4791B00496C27 /* Build configuration list for PBXProject "Tiny Cheato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA561C224E4791C00496C27 /* Debug */,
+				6FA561C324E4791C00496C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA561C424E4791C00496C27 /* Build configuration list for PBXNativeTarget "Tiny Cheato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA561C524E4791C00496C27 /* Debug */,
+				6FA561C624E4791C00496C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA561C724E4791C00496C27 /* Build configuration list for PBXNativeTarget "Tiny CheatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA561C824E4791C00496C27 /* Debug */,
+				6FA561C924E4791C00496C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA561CA24E4791C00496C27 /* Build configuration list for PBXNativeTarget "Tiny CheatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA561CB24E4791C00496C27 /* Debug */,
+				6FA561CC24E4791C00496C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FA5619224E4791B00496C27 /* Project object */;
+}
